@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ZooApp</string>
+    <string name="placeholder1">Usuario</string>
+    <string name="placeholder2">Contraseña</string>
+    <string name="button_ingresar">Ingresar</string>
+    <string name="question">¿No tienes cuenta?</string>
+    <string name="registar_anchor">Registrate</string>
+
+    //Segundo activity
+    <string name="placeholder3">Buscar atracciones, comida, mas …</string>
+    <string name="guia1">Toca el mapa para explorar</string>
+    <string name="button1">Mapa</string>
+    <string name="button2">Lista</string>
+    <string name="button3">Informacion</string>
+    <string name="button4">Perfil</string>
+
+</resources>
