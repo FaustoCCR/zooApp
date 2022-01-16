@@ -14,4 +14,11 @@
     <string name="button3">Informacion</string>
     <string name="button4">Perfil</string>
 
+    //Tercer activity
+    <string name="placeholder4">Buscar especies</string>
+    <string name="animal1">LEON</string>
+    <string name="description1">Este es un léon traído directamente desde el África</string>
+    <string name="button_viewmore">Ver más</string>
+
+
 </resources>
