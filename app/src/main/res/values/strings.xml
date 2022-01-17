@@ -28,5 +28,6 @@
 
     //Quinto activity
     <string name="info_cuenta">INFORMACION DE LA CUENTA</string>
+    <string name="enero">Horario de Enero a Marzo</string>
 
 </resources>
