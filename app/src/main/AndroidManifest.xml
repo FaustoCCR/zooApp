@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".QuintoActivity"
+            android:exported="false" />
+        <activity
             android:name=".CuartoActivity"
             android:exported="false" />
         <activity

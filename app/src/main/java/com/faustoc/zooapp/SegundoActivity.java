@@ -19,8 +19,5 @@ public class SegundoActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this, TercerActivity.class);
         startActivity(intent);
-
-
-
     }
 }

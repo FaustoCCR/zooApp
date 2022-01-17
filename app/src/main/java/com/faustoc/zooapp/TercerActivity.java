@@ -25,4 +25,5 @@ public class TercerActivity extends AppCompatActivity {
         spinner1.setAdapter(adapter);
     }
 
+
 }
