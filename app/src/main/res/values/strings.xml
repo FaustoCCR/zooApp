@@ -20,5 +20,10 @@
     <string name="description1">Este es un léon traído directamente desde el África</string>
     <string name="button_viewmore">Ver más</string>
 
+    //Cuarto activity
+    <string name="zoologi">INFORMACION SOBRE EL ZOOLOGICO</string>
+    <string name="detalles">El zoologico "Lion" lleva 10 años ofreciendo a la cuidadania una vista
+        clara de los animales que que se encuentran en el mundo, haciendo que la experiencia sea inolvidable.</string>
+    <string name="horarios">HORARIOS DE ATENCION</string>
 
 </resources>
