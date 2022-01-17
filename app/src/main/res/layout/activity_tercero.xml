@@ -37,7 +37,6 @@
             android:layout_height="match_parent"
             android:background="@drawable/buttons_style"
             android:contentDescription="@string/button3"
-            android:onClick="infor"
             app:srcCompat="@android:drawable/ic_menu_info_details" />
 
         <ImageButton
