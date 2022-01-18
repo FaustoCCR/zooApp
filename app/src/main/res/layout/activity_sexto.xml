@@ -7,38 +7,128 @@
     tools:context=".SextoActivity"
     android:background="#202732" >
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="168dp"
+        android:background="@drawable/buttons_style"
+        android:onClick="comprarBoleto"
+        android:text="@string/button_buy"
+        android:textColor="#5D4037"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="104dp"
+        android:background="#FFC9BC6A"
+        android:onClick="cancelar"
+        android:text="@string/button_cancel"
+        android:textColor="#5D4037"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttons_style"
+            android:contentDescription="@string/button1"
+            app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+        <ImageButton
+            android:id="@+id/button_list"
+            android:layout_width="104dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttons_style"
+            android:contentDescription="@string/button2"
+            app:srcCompat="@android:drawable/ic_menu_agenda" />
+
+        <ImageButton
+            android:id="@+id/button_info"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttons_style"
+            android:contentDescription="@string/button3"
+            app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="98dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttons_style"
+            android:contentDescription="@string/button4"
+            app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="@string/titleticket"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
     <TableLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView7"
-                android:layout_width="wrap_content"
+                android:id="@+id/textView20"
+                android:layout_width="75dp"
                 android:layout_height="wrap_content"
-                android:text="@string/header1" />
+                android:text="@string/header1"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/textView8"
-                android:layout_width="wrap_content"
+                android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:text="@string/header2" />
+                android:text="@string/header2"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/header3" />
+                android:text="@string/header3"
+                android:textStyle="bold"/>
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/textView15"
@@ -47,18 +137,22 @@
                 android:text="@string/td1" />
 
             <TextView
-                android:id="@+id/textView16"
-                android:layout_width="wrap_content"
+                android:id="@+id/precio1"
+                android:layout_width="47dp"
                 android:layout_height="wrap_content"
-                android:text="@string/td2" />
+                android:text="@string/td2"
+                android:textSize="14sp" />
 
             <EditText
-                android:id="@+id/editTextNumber"
-                android:layout_width="wrap_content"
+                android:id="@+id/cantidad1"
+                android:layout_width="20dp"
                 android:layout_height="50dp"
                 android:ems="10"
                 android:hint="@string/td3"
-                android:inputType="number" />
+                android:inputType="number"
+                android:textSize="14sp"
+                android:backgroundTint="#34D192"
+                android:onClick="mostrarPrecio1"/>
         </TableRow>
 
         <TableRow
@@ -72,22 +166,97 @@
                 android:text="@string/td4" />
 
             <TextView
-                android:id="@+id/textView18"
-                android:layout_width="wrap_content"
+                android:id="@+id/precio2"
+                android:layout_width="76dp"
                 android:layout_height="wrap_content"
-                android:text="@string/td5" />
+                android:text="@string/td5"
+                android:textSize="14sp" />
 
             <EditText
-                android:id="@+id/editTextNumber2"
-                android:layout_width="wrap_content"
+                android:id="@+id/cantidad2"
+                android:layout_width="89dp"
                 android:layout_height="50dp"
                 android:ems="10"
                 android:hint="@string/td6"
-                android:inputType="number" />
+                android:inputType="number"
+                android:textSize="14sp"
+                android:backgroundTint="#34D192"
+                android:onClick="mostrarPrecio2"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.468">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/header1"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:text="@string/header3"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:text="@string/header4"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/ticket_type" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quantity" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/subtotal" />
+        </TableRow>
+
     </TableLayout>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="84dp"
+        android:text="@string/total"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,4 +20,14 @@ public class SegundoActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TercerActivity.class);
         startActivity(intent);
     }
+
+    public void about(View v){
+        Intent intent = new Intent(this, CuartoActivity.class);
+        startActivity(intent);
+    }
+
+    public void profile(View v){
+        Intent intent = new Intent(this, QuintoActivity.class);
+        startActivity(intent);
+    }
 }

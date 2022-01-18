@@ -27,8 +27,17 @@ public class TercerActivity extends AppCompatActivity {
         spinner1.setAdapter(adapter);
     }
 
+    public void map(View v){
+        Intent intent = new Intent(this, SegundoActivity.class);
+        startActivity(intent);
+    }
     public void info (View v){
         Intent intent = new Intent(this, CuartoActivity.class);
+        startActivity(intent);
+    }
+
+    public void profile(View v){
+        Intent intent = new Intent(this, QuintoActivity.class);
         startActivity(intent);
     }
 }

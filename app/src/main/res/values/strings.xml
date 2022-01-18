@@ -32,7 +32,8 @@
     <string name="enero">Horario de Enero a Marzo</string>
 
     //Sexto activity
-    //contenido de la tabla
+    <string name="titleticket">BOLETERÍA</string>
+    //contenido de la tabla1
     //fila1
     <string name="header1">Tipo de boleto</string>
     <string name="header2">Precio</string>
@@ -47,6 +48,19 @@
     <string name="td4">Adultos</string>
     <string name="td5">0</string>
     <string name="td6">0</string>
+
+    //contenido de la tabla2
+    //fila1
+    <string name="header4">Subtotal</string>
+    <string name="ticket_type">Niños</string>
+    <string name="quantity">0</string>
+    <string name="subtotal">0.00</string>
+    <string name="total">Total: 0.00</string>
+
+    //botones
+    <string name="button_buy">Comprar</string>
+    <string name="button_cancel">Cancelar</string>
+
 
 
 
