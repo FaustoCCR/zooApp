@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QuintoActivity">
+    tools:context=".QuintoActivity"
+    android:background="#202732">
 
     <TableRow
         android:id="@+id/tableRow"
@@ -31,7 +32,7 @@
             app:srcCompat="@android:drawable/ic_menu_agenda" />
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/button_info"
             android:layout_width="103dp"
             android:layout_height="match_parent"
             android:background="@drawable/buttons_style"
@@ -53,13 +54,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="151dp"
-        android:layout_marginTop="47dp"
+        android:layout_marginTop="65dp"
         android:layout_marginEnd="151dp"
-        android:layout_marginBottom="602dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/info_cuenta"
-        app:layout_constraintBottom_toTopOf="@+id/tableRow"
+        app:layout_constraintBottom_toBottomOf="@+id/tableRow"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

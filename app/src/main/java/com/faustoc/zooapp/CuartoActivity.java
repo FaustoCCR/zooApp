@@ -18,4 +18,10 @@ public class CuartoActivity extends AppCompatActivity {
         Intent intent = new Intent(this, QuintoActivity.class);
         startActivity(intent);
     }
+
+    public void solicitarBoleto(View v){
+        Intent intent = new Intent(this, SextoActivity.class);
+        startActivity(intent);
+
+    }
 }

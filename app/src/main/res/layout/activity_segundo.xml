@@ -33,7 +33,7 @@
             app:srcCompat="@android:drawable/ic_menu_agenda" />
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/button_info"
             android:layout_width="103dp"
             android:layout_height="match_parent"
             android:background="@drawable/buttons_style"
@@ -63,7 +63,7 @@
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="346dp"
         android:layout_height="55dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="65dp"
         android:backgroundTint="#34D192"
         android:ems="10"
         android:hint="@string/placeholder3"
@@ -78,6 +78,7 @@
         android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/tableRow"
         app:layout_constraintEnd_toEndOf="parent"

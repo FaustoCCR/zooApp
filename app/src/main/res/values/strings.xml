@@ -25,9 +25,30 @@
     <string name="detalle">El zoologico "Lion" lleva 10 años ofreciendo a la cuidadania una vista
         clara de los animales que que se encuentran en el mundo, haciendo que la experiencia sea inolvidable.</string>
     <string name="horario">HORARIOS DE ATENCION</string>
+    <string name="bt_requestTicket">Solicitar Boleto</string>
 
     //Quinto activity
     <string name="info_cuenta">INFORMACION DE LA CUENTA</string>
     <string name="enero">Horario de Enero a Marzo</string>
+
+    //Sexto activity
+    //contenido de la tabla
+    //fila1
+    <string name="header1">Tipo de boleto</string>
+    <string name="header2">Precio</string>
+    <string name="header3">Cantidad</string>
+
+    //fila2
+    <string name="td1">Niños</string>
+    <string name="td2">0</string>
+    <string name="td3">0</string>
+
+    //fila3
+    <string name="td4">Adultos</string>
+    <string name="td5">0</string>
+    <string name="td6">0</string>
+
+
+
 
 </resources>
