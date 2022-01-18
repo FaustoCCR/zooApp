@@ -14,6 +14,16 @@ public class CuartoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cuarto);
     }
 
+    public void map (View v){
+        Intent intent = new Intent(this, SegundoActivity.class);
+        startActivity(intent);
+    }
+
+    public void list (View v){
+        Intent intent = new Intent(this, TercerActivity.class);
+        startActivity(intent);
+    }
+
     public void detalles (View v){
         Intent intent = new Intent(this, QuintoActivity.class);
         startActivity(intent);

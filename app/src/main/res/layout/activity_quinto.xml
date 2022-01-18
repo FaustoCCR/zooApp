@@ -21,7 +21,8 @@
             android:layout_height="match_parent"
             android:background="@drawable/buttons_style"
             android:contentDescription="@string/button1"
-            app:srcCompat="@android:drawable/ic_menu_mapmode" />
+            app:srcCompat="@android:drawable/ic_menu_mapmode"
+            android:onClick="map"/>
 
         <ImageButton
             android:id="@+id/button_list"
@@ -29,7 +30,8 @@
             android:layout_height="match_parent"
             android:background="@drawable/buttons_style"
             android:contentDescription="@string/button2"
-            app:srcCompat="@android:drawable/ic_menu_agenda" />
+            app:srcCompat="@android:drawable/ic_menu_agenda"
+            android:onClick="list"/>
 
         <ImageButton
             android:id="@+id/button_info"
@@ -37,7 +39,8 @@
             android:layout_height="match_parent"
             android:background="@drawable/buttons_style"
             android:contentDescription="@string/button3"
-            app:srcCompat="@android:drawable/ic_menu_info_details" />
+            app:srcCompat="@android:drawable/ic_menu_info_details"
+            android:onClick="about"/>
 
         <ImageButton
             android:id="@+id/imageButton5"
@@ -45,7 +48,8 @@
             android:layout_height="match_parent"
             android:background="@drawable/buttons_style"
             android:contentDescription="@string/button4"
-            app:srcCompat="@android:drawable/ic_menu_myplaces" />
+            app:srcCompat="@android:drawable/ic_menu_myplaces"
+            android:onClick="about"/>
 
     </TableRow>
 
@@ -112,7 +116,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="330dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/email"
@@ -151,7 +155,7 @@
     <AutoCompleteTextView
         android:id="@+id/autoCompleteTextView6"
         android:layout_width="186dp"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_marginStart="97dp"
         android:layout_marginTop="44dp"
         android:layout_marginEnd="38dp"
@@ -163,7 +167,7 @@
     <AutoCompleteTextView
         android:id="@+id/autoCompleteTextView15"
         android:layout_width="186dp"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_marginStart="97dp"
         android:layout_marginTop="23dp"
         android:layout_marginEnd="38dp"
@@ -174,18 +178,20 @@
     <AutoCompleteTextView
         android:id="@+id/autoCompleteTextView18"
         android:layout_width="186dp"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_marginStart="106dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="23dp"
         android:layout_marginEnd="38dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView34"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView34"
         app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextView17" />
 
     <AutoCompleteTextView
         android:id="@+id/autoCompleteTextView16"
         android:layout_width="186dp"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_marginStart="46dp"
         android:layout_marginTop="19dp"
         android:layout_marginEnd="38dp"
@@ -196,7 +202,7 @@
     <AutoCompleteTextView
         android:id="@+id/autoCompleteTextView17"
         android:layout_width="186dp"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_marginStart="33dp"
         android:layout_marginTop="23dp"
         android:layout_marginEnd="38dp"

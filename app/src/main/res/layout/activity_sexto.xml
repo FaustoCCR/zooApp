@@ -49,7 +49,8 @@
             android:layout_height="match_parent"
             android:background="@drawable/buttons_style"
             android:contentDescription="@string/button1"
-            app:srcCompat="@android:drawable/ic_menu_mapmode" />
+            app:srcCompat="@android:drawable/ic_menu_mapmode"
+            android:onClick="map"/>
 
         <ImageButton
             android:id="@+id/button_list"
@@ -57,7 +58,8 @@
             android:layout_height="match_parent"
             android:background="@drawable/buttons_style"
             android:contentDescription="@string/button2"
-            app:srcCompat="@android:drawable/ic_menu_agenda" />
+            app:srcCompat="@android:drawable/ic_menu_agenda"
+            android:onClick="list"/>
 
         <ImageButton
             android:id="@+id/button_info"
@@ -65,7 +67,8 @@
             android:layout_height="match_parent"
             android:background="@drawable/buttons_style"
             android:contentDescription="@string/button3"
-            app:srcCompat="@android:drawable/ic_menu_info_details" />
+            app:srcCompat="@android:drawable/ic_menu_info_details"
+            android:onClick="about"/>
 
         <ImageButton
             android:id="@+id/imageButton5"
@@ -73,7 +76,8 @@
             android:layout_height="match_parent"
             android:background="@drawable/buttons_style"
             android:contentDescription="@string/button4"
-            app:srcCompat="@android:drawable/ic_menu_myplaces" />
+            app:srcCompat="@android:drawable/ic_menu_myplaces"
+            android:onClick="profile"/>
 
     </TableRow>
 
