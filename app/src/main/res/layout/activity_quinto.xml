@@ -54,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="151dp"
-        android:layout_marginTop="65dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="151dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/info_cuenta"
@@ -64,4 +64,142 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="271dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/apellido_p"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="258dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/apellido_s"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="321dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/nombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="330dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/usuario"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="179dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/autoCompleteTextView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/zoo_icon"
+        android:contentDescription="TODO" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView6"
+        android:layout_width="186dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView15"
+        android:layout_width="186dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextView6" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView18"
+        android:layout_width="186dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView34"
+        app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextView17" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView16"
+        android:layout_width="186dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView32"
+        app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextView15" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView17"
+        android:layout_width="186dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextView16" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

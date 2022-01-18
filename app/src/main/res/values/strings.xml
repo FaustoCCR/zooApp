@@ -52,7 +52,11 @@
 
     //Quinto activity
     <string name="info_cuenta">INFORMACION DE LA CUENTA</string>
-
+    <string name="usuario">Usuario:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellido_p">Primer Apellido:</string>
+    <string name="apellido_s">Segundo Apellido:</string>
+    <string name="email">E-mail:</string>
 
     //Sexto activity
     //contenido de la tabla
