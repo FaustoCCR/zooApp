@@ -26,10 +26,33 @@
         clara de los animales que que se encuentran en el mundo, haciendo que la experiencia sea inolvidable.</string>
     <string name="horario">HORARIOS DE ATENCION</string>
     <string name="bt_requestTicket">Solicitar Boleto</string>
+    <string name="solicitar">¿Quieres vivir la experiencia de visitarnos?</string>
+
+    //contenido de la tabla
+    //fila1
+    <string name="enero">Horario de Enero a Marzo</string>
+    //fila2
+    <string name="primer_h">Lunes: 9:00 a 18:00</string>
+    <string name="segundo_h">Miercoles: 9:00 a 18:00</string>
+    <string name="tercer_h">Viernes: 9:00 a 18:00</string>
+
+    //fila3
+    <string name="marzo">Horario de Marzo a Julio:</string>
+    //fila4
+    <string name="primer_ho">Martes: 9:00 a 18:00</string>
+    <string name="segundo_ho">Jueves: 9:00 a 18:00</string>
+    <string name="tercer_ho">Sabado y Domingo: 9:00-11:00</string>
+
+    //fila5
+    <string name="julio">Horario de Julio a Noviembre:</string>
+    //fila6
+    <string name="primer_hor">Lunes: 9:00 a 18:00</string>
+    <string name="segundo_hor">Miercoles: 9:00 a 18:00</string>
+    <string name="tercer_hor">Viernes: 9:00 a 18:00 </string>
 
     //Quinto activity
     <string name="info_cuenta">INFORMACION DE LA CUENTA</string>
-    <string name="enero">Horario de Enero a Marzo</string>
+
 
     //Sexto activity
     //contenido de la tabla
